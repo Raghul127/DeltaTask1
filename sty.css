@@ -1,0 +1,27 @@
+html
+{  font-size: 20px; 
+  font-family: 'Open Sans', sans-serif;
+  
+    background-image: url("imag5.jpg") ;
+    background-size: 1500px 1700px;
+}
+ h1
+ {
+  text-align: center;
+  margin: 0;
+  padding: 20px 0; 
+}
+body {
+  width: 800px;
+  margin: 0 auto;
+  padding: 0 20px 20px 20px;
+  background-color: white;
+  border: 5px solid black;
+}
+.save
+{display: none;}
+#sorting:hover
+{
+    background-color: #4CAF50;
+    color: white;
+} }

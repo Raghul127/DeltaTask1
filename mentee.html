@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+
+     <meta charset="utf-8">
+    <title>Mentorship</title>
+    <link rel="stylesheet" type="text/css" href="sty.css">
+    <script src="scr.js"></script>
+
+</head>
+<body>
+
+	<h1>MY MENTEES</h1>
+
+	
+
+
+<div id="wrapper">
+<table align='center' cellspacing=2 cellpadding=5 id="data_table" border=1>
+<br>
+<tr>
+<th>Name</th>
+<th>Rating (Out of 10)</th>
+<th>Comments</th>
+</tr>
+
+<tr id="row1">
+<td id="name_row1">Ankit</td>
+<td id="rating_row1">7</td>
+<td id="about_row1">Hard Working</td>
+<td>
+<input type="button" id="edit_button1" value="Edit" class="edit" onclick="edit_row('1')">
+<input type="button" id="save_button1" value="Save" class="save" onclick="save_row('1')">
+<input type="button" value="Delete" class="delete" onclick="delete_row('1')">
+</td>
+</tr>
+
+<tr id="row2">
+<td id="name_row2">Raghul</td>
+<td id="rating_row2">8</td>
+<td id="about_row2">Smart</td>
+<td>
+<input type="button" id="edit_button2" value="Edit" class="edit" onclick="edit_row('2')">
+<input type="button" id="save_button2" value="Save" class="save" onclick="save_row('2')">
+<input type="button" value="Delete" class="delete" onclick="delete_row('2')">
+</td>
+</tr>
+
+<tr id="row3">
+<td id="name_row3">Adwaith</td>
+<td id="rating_row3">10</td>
+<td id="about_row3">Brilliant</td>
+<td>
+<input type="button" id="edit_button3" value="Edit" class="edit" onclick="edit_row('3')">
+<input type="button" id="save_button3" value="Save" class="save" onclick="save_row('3')">
+<input type="button" value="Delete" class="delete" onclick="delete_row('3')">
+</td>
+</tr>
+
+<tr>
+<td><input type="text" id="new_name"></td>
+<td><input type="text" id="new_rating"></td>
+<td><input type="text" id="new_about"></td>
+<td><input type="button" class="add" onclick="add_row();" value="Add Row"></td>
+</tr>
+
+</table>
+</div>
+<br>
+<button id="sorting" onclick="sortTable()">Sort based on Rating</button>
+
+</body>
+</html>
+
